@@ -1,0 +1,94 @@
+{
+    "AutoCreate": false,
+    "CloudConnection": null,
+    "Conditions": [{
+            "ActionName": "sysObjectID",
+            "DiscoveryTemplate": "SNMP_MIB_II",
+            "Match": "equals",
+            "Value": "1.3.6.1.4.1.9.1.1923"
+        }
+    ],
+    "ConditionsOptions": "1",
+    "ConfigurationManagement": false,
+    "ConfigurationMgmt": {
+        "AutoDefaultConfiguration": false,
+        "AutoDefaultConfigurationDirectory": "",
+        "AutoDefaultConfigurationScript": "",
+        "BackupConfigurationScript": "",
+        "ChangeScript": "",
+        "ChecksumParameter": 0,
+        "ComplianceScript": "",
+        "DefaultConfigurationScript": "",
+        "SetChecksumAlarmTemplate": false,
+        "VersionScript": ""
+    },
+    "Configurations": [],
+    "Connectivity": {
+        "ConnectivityDiscoveryScript": ""
+    },
+    "Provisioning": {
+        "Configuration": {
+            "AlarmTemplate": "",
+            "CreateDVEs": true,
+            "Description": "",
+            "EnableSnmpAgent": false,
+            "EnableTelnet": false,
+            "ForceAgent": "",
+            "IsHidden": false,
+            "IsReadOnly": false,
+            "KeepOnline": false,
+            "NameSchema": "Cisco Nexus 93128TX [IPAddress]",
+            "Ports": [],
+            "Properties": [{
+                    "Name": "Model",
+                    "Value": "93128TX"
+                }, {
+                    "Name": "Manufacturer",
+                    "Value": "Cisco"
+                }, {
+                    "Name": "Energy Expected Consumption",
+                    "Value": "0"
+                }, {
+                    "Name": "Energy Peak Consumption",
+                    "Value": "0"
+                }, {
+                    "Name": "Location Rack Units",
+                    "Value": "3"
+                }, {
+                    "Name": "Device Path Picture",
+                    "Value": ""
+                }
+            ],
+            "ProtocolName": "CISCO Nexus",
+            "ProtocolVersion": "",
+            "SlowPoll": [{
+                    "Base": "NO",
+                    "PingInterval": 30000,
+                    "Value": 2147483647
+                }
+            ],
+            "SnmpReadCommunityString": "",
+            "SnmpWriteCommunityString": "",
+            "State": "Active",
+            "TimeoutTime": 0,
+            "TrendTemplate": "",
+            "Type": ""
+        },
+        "DmaId": 0,
+        "UpdatePropertyScript": "",
+        "View": [],
+        "ViewName": []
+    },
+    "RackManagement": {
+        "RackAssignmentScript": ""
+    },
+    "SetBaselineAlarmTemplate": true,
+    "SoftwareUpgrade": false,
+    "SoftwareUpgrades": [{
+            "ImageFileLocation": "",
+            "ScriptName": "",
+            "Version": ""
+        }
+    ],
+    "SoftwareVersionPID": 100
+}
