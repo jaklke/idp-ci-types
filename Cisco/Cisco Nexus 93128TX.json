@@ -37,7 +37,7 @@
             "IsHidden": false,
             "IsReadOnly": false,
             "KeepOnline": false,
-            "NameSchema": "Cisco Nexus 93128TX [IPAddress]",
+            "NameSchema": "Cisco Nexus 93128tx [IPAddress]",
             "Ports": [],
             "Properties": [{
                     "Name": "Model",
