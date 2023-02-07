@@ -27,10 +27,8 @@ jobs:
       
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v35
-        with:
-          files: *.json
-          
+        uses: tj-actions/changed-files@v35    
+        
       - name: Run a step if my-file.txt was modified
         if: contains(steps.changed-files.outputs.modified_files, 'my-file.txt')
         run: |
