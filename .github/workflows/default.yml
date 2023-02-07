@@ -24,6 +24,17 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+        with:
+          files: *.json
+          
+      - name: Run a step if my-file.txt was modified
+        if: contains(steps.changed-files.outputs.modified_files, 'my-file.txt')
+        run: |
+          echo "my-file.txt file has been modified."
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
